@@ -14,7 +14,7 @@ const Produk = () => {
     <div className='flex flex-col justify-between lg:flex-row gap-24'>
       <div className='flex flex-col gap-6'>
         <img src={activeImg} alt="" className='w-full h-full aspect-square object-cover rounded-xl' />
-        <div className='flex flex-col justify-between h-24 gap-6 lg:flex-row'>
+        <div className='flex flex-col justify-between h-24 gap-6 row'>
           <img src={images.img1} alt="" className='w-24 h-24 rounded-md cursor-pointer'
             onClick={() => setActiveImage(images.img1)} />
           <img src={images.img2} alt="" className='w-24 h-24 rounded-md cursor-pointer'
