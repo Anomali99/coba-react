@@ -1,9 +1,10 @@
 import { useState } from "react";
-import Produk from "./Pages/Produk";
+import HomePage from "./pages/HomePage";
+
 function App() {
   const [count, setCount] = useState(0);
 
-  return <Produk/>;
+  return <HomePage/>;
 }
 
 export default App;
